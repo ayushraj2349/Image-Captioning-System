@@ -13,13 +13,13 @@ A deep learning-powered web application that generates *descriptive captions and
 
 ## 💡 Project Motivation
 
-The primary goal of this project is to *bridge the visual gap for the visually impaired* by converting static visual content (images) into meaningful, spoken descriptions. The system allows users to upload one or more images and receive *natural language captions, which are then converted to **real-time audio using Google TTS*. This enables blind users to gain insights into visual content—photos, documents, surroundings—that they would not otherwise be able to perceive.
+The primary goal of this project is to *bridge the visual gap for the visually impaired* by converting static visual content (images) into meaningful, spoken descriptions. The system allows users to upload one or more images and receive natural language captions, which are then converted to **real-time audio using Google TTS**. This enables blind users to gain insights into visual content—photos, documents, surroundings—that they would not otherwise be able to perceive.
 
 ---
 
 ## 🧠 Project Overview
 
-This system implements *multimodal image captioning—converting a single image into both **natural language text* and *spoken audio output. The model architecture is based on a **fine-tuned CNN-LSTM with Attention* mechanism, using *Beam Search* decoding to generate fluent and contextually rich captions.
+This system implements **Multimodal Image Captioning**—converting a single image into both *natural language text* and *spoken audio output*. The model architecture is based on a *fine-tuned CNN-LSTM with Attention* mechanism, using *Beam Search* decoding to generate fluent and contextually rich captions.
 
 ---
 
@@ -28,7 +28,7 @@ This system implements *multimodal image captioning—converting a single image 
 - *Dual Output:* Caption generation in both *text* and *audio* (via Google TTS)
 - *Batch Upload Support:* Generate captions for up to *10 images* at once
 - *Interactive Parameters:* Sliders for *beam width* and *maximum caption length*
-- *Deployed Web App:* Built with *Gradio, hosted on **Hugging Face Spaces*
+- *Deployed Web App:* Built with *Gradio*, hosted on *Hugging Face Spaces*
 - *Fully Notebook-Based:* Implementation and training logic entirely within *Colab notebooks*
 
 ---
@@ -108,5 +108,10 @@ This project is licensed under the *MIT License*.
 
 ## 🙋‍♂ Author
 
-*Ayush Raj*  
-[GitHub](https://github.com/ayushraj2349)
+**Ayush Raj**
+
+[![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](ayushraj2349@gmail.com)
+[![image](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayushraj2349)
+[![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayushraj2349)
+[![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/ayushraj2349)
+[![medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@ayushraj2349)
